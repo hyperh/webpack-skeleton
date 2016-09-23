@@ -44,7 +44,6 @@
     "karma-coverage": "^1.1.1",
     "karma-mocha": "^1.1.1",
     "karma-webpack": "^1.8.0",
-    "mobx-react-devtools": "^4.2.4",
     "mocha": "^3.0.2",
     "node-sass": "^3.8.0",
     "postcss-loader": "^0.9.1",
@@ -61,6 +60,6 @@
     "lodash": "^4.13.1",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "react-icons": "^2.2.1",
+    "react-icons": "^2.2.1"
   }
 }
