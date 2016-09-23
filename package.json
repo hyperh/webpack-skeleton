@@ -1,0 +1,68 @@
+{
+  "name": "webpack-skeleton",
+  "version": "0.0.1",
+  "description": "A webpack skeleton.",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src",
+    "build": "webpack",
+    "build:prod": "NODE_ENV=production webpack -p",
+    "test": "karma start",
+    "watch:test": "npm test -- --auto-watch --no-single-run",
+    // "scp": "scp -r dist root@MYWEBSITE.com:/srv/www/MYWEBSITE.com",
+    // "deploy": "npm run build:prod && npm run scp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyperh/webpack-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hyperh/webpack-skeleton/issues"
+  },
+  "homepage": "https://github.com/hyperh/webpack-skeleton",
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.9.1",
+    "babel-eslint": "^6.0.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-__coverage__": "^11.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.12.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.4.2",
+    "eslint-plugin-react": "^5.1.1",
+    "file-loader": "^0.8.5",
+    "image-webpack-loader": "^1.8.0",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-mocha": "^1.1.1",
+    "karma-webpack": "^1.8.0",
+    "mobx-react-devtools": "^4.2.4",
+    "mocha": "^3.0.2",
+    "node-sass": "^3.8.0",
+    "postcss-loader": "^0.9.1",
+    "react-hot-loader": "^3.0.0-beta.1",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "lodash": "^4.13.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-icons": "^2.2.1",
+  }
+}
