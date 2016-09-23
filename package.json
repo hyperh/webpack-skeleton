@@ -9,8 +9,6 @@
     "build:prod": "NODE_ENV=production webpack -p",
     "test": "karma start",
     "watch:test": "npm test -- --auto-watch --no-single-run",
-    // "scp": "scp -r dist root@MYWEBSITE.com:/srv/www/MYWEBSITE.com",
-    // "deploy": "npm run build:prod && npm run scp"
   },
   "repository": {
     "type": "git",
